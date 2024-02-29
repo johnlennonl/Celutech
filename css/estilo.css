@@ -67,9 +67,42 @@ a {
 .sectionUno {
     background-color: rgba(176, 177, 179, 0.535);
 }
+.footer{
+    height: 140px;
+}
 
 .navTextFooter{
     font-size: 1.1rem;
     text-decoration: none;
     color: black;
+}
+
+.articulo{
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+
+.precioArticulo{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(89, 86, 86);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calificarProducto{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color:  rgb(89, 86, 86); ;
+}
+
+.btnComprar:hover{
+    background-color: gray;
+    font-weight: 600;
+    border: none;
+    
+}
+
+.carousell{
+    border-radius: 15px;
 }
