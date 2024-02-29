@@ -11,6 +11,7 @@ body {
     text-decoration: none;
     color: black;
     font-weight: 700;
+    letter-spacing: 1px;
 
 }
 .navText:hover{
@@ -79,20 +80,20 @@ a {
 
 .articulo{
     font-size: 1.3rem;
-    font-weight: bold;
+    
     
 }
 
 .precioArticulo{
     font-size: 1.5rem;
-    font-weight: 500;
-    color: rgb(89, 86, 86);
+    color: rgb(54, 54, 54);
+    letter-spacing: 1px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .calificarProducto{
     font-size: 1.1rem;
-    font-weight: bold;
+    letter-spacing: 1px;
     color:  rgb(89, 86, 86); ;
 }
 
@@ -112,6 +113,8 @@ a {
     border: none;
     background: none;
     cursor: pointer;
+    
+    
   }
   
   .cta span {
@@ -120,6 +123,7 @@ a {
     font-size: 14px;
     padding-right: 15px;
     text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   .cta svg {
