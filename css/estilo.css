@@ -257,4 +257,6 @@ a {
     box-shadow: none;
   }
   
-
+.iPad{
+    cursor: pointer;
+}
