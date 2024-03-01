@@ -68,6 +68,9 @@ a {
 .sectionUno {
     background-color: rgba(176, 177, 179, 0.535);
 }
+.sectiondos{
+    background-color: #000;
+}
 .footer{
     height: 140px;
 }
@@ -167,71 +170,91 @@ a {
     font-size: 3rem;
   }
 /* ICONOS SOCIAL*/
-.socials-container {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    width: fit-content;
-    height: fit-content;
-    border-radius: 20px;
+.input {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    width: auto;
+    background-color: #c0c0c2;
     justify-content: center;
-    gap: 25px;
-    padding: 20px 40px;
-    background-color: #8d8989;
+    border-radius: 5px;
+    align-items: center;
   }
-  .social {
-    width: 50px;
-    height: 50px;
+  
+  .value {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: rgb(42, 41, 41);
     display: flex;
+    position: relative;
+    gap: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 10px 0 10px;
+  }
+  
+  .value:not(:active):hover,
+  .value:focus {
+    background-color: #c5c5c5;
+  }
+  
+  .value:focus,
+  .value:active {
+    background-color: #1a1f24;
+    outline: none;
+  }
+  
+  .value::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 5px;
+    height: 80%;
+    background-color: #2f81f7;
+    border-radius: 5px;
+    opacity: 0;
+  }
+  
+  .value:focus::before,
+  .value:active::before {
+    opacity: 1;
+  }
+  
+  .value svg {
+    width: 15px;
+  }
+  
+
+
+/* APPLE */
+
+
+.button {
+    display: flex;
+    background-color: #000;
+    color: #ffffff;
+    padding: 0.5rem 1.4rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
     align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    border: 1px solid rgb(194, 194, 194);
+    border-radius: 0.5rem;
+    gap: 0.75rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: .6s ease;
   }
-  .twitter:hover {
-    background: linear-gradient(45deg, #66757f, #00acee, #36daff, #dbedff);
+  
+  .button svg {
+    height: 30px;
   }
-  .facebook:hover {
-    background: linear-gradient(45deg, #134ac0, #316ff6, #78a3ff);
+  
+  .button:hover {
+    box-shadow: none;
   }
-  .google-plus:hover {
-    background: linear-gradient(45deg, #872419, #db4a39, #ff7061);
-  }
-  .instagram:hover {
-    background: #f09433;
-    background: -moz-linear-gradient(
-      45deg,
-      #f09433 0%,
-      #e6683c 25%,
-      #dc2743 50%,
-      #cc2366 75%,
-      #bc1888 100%
-    );
-    background: -webkit-linear-gradient(
-      45deg,
-      #f09433 0%,
-      #e6683c 25%,
-      #dc2743 50%,
-      #cc2366 75%,
-      #bc1888 100%
-    );
-    background: linear-gradient(
-      45deg,
-      #f09433 0%,
-      #e6683c 25%,
-      #dc2743 50%,
-      #cc2366 75%,
-      #bc1888 100%
-    );
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-  }
-  .social svg {
-    fill: white;
-    height: 20px;
-}
-
-
-
-
+  
 
