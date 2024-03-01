@@ -24,7 +24,7 @@
     <header class="p-3 bg-black contenedorHeader ">
         <nav class="navbar bg-transparent">
             <div class="container">
-                <img src="/img/DOLAR (23).png" alt="logotipo" class="logoHeader mx-auto">
+                <img src="../img/DOLAR (23).png" alt="logotipo" class="logoHeader mx-auto">
                 <form class="d-flex mx-auto" role="search">
                     <input class="form-control me-2 " type="search" placeholder="Buscar .. " aria-label="Search">
                     <button class="btn btn-success" type="submit">Buscar</button>
@@ -36,9 +36,17 @@
         <div class=" bg-white opacity-40 ">
             <header class="d-flex justify-content-center py-3">
                 <ul class="nav nav-pills mx-auto ">
-                    <li class="nav-item"><a href="/index.html" class="nav-link navText " aria-current="page">Home</a>
+                    <li class="nav-item"><a href="../index.html" class="nav-link navText " aria-current="page">Home</a>
                     </li>
-                    <li class="nav-item"><a href="#" class="nav-link navText">Productos</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navText" href="#" data-bs-toggle="dropdown"
+                            aria-expanded="false">Productos</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Apple</a></li>
+                            <li><a class="dropdown-item" href="#">Android</a></li>
+                            <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item"><a href="#" class="nav-link navText">Nosotros</a></li>
                     <li class="nav-item"><a href="#" class="nav-link navText">FAQs</a></li>
                 </ul>
@@ -81,6 +89,23 @@
                 </button>
         </div>
         </div> -->
+        <!-- SELECTOR -->
+
+        <div class="container"> 
+            <h2 class="mt-5"> Que producto Apple Buscas? </h2>
+            <div class="d-flex justify-content-start mx-auto mt-2">
+                
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Seleccionar</option>
+                    <option value="1">iPhones</option>
+                    <option value="2">iPads </option>
+                    <option value="3">Mac</option>
+                    <option value="3">Accesorios</option>
+                </select>
+
+            </div>
+
+        </div>
 
     <main class="container mt-5">
 
@@ -88,7 +113,8 @@
             <div class="col">
                 <div
                     class="card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
-                    <img src="../productos/iphone_15__pro_mas_1tb___black_titaniun_1-removebg-preview.png" class="card-img-top imgProductos" alt="...">
+                    <img src="../productos/iphone_15__pro_mas_1tb___black_titaniun_1-removebg-preview.png"
+                        class="card-img-top imgProductos" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">iPhone 15 Pro Max 1TB - Black Titanium</h5>
                         <p class="card-text articulo">Apple Nuevo </p>
@@ -115,7 +141,8 @@
             <div class="col">
                 <div
                     class="card card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
-                    <img src="../productos/iphone_15_blue-removebg-preview.png" class="card-img-top imgProductos" alt="...">
+                    <img src="../productos/iphone_15_blue-removebg-preview.png" class="card-img-top imgProductos"
+                        alt="...">
                     <div class="card-body">
                         <h5 class="card-title">iPhone 15 Pro Max 1TB - Blue Titanium</h5>
                         <p class="card-text articulo ">Apple Nuevo</p>
@@ -140,7 +167,8 @@
             <div class="col">
                 <div
                     class="card card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
-                    <img src="../productos/iphone_15_natural_titan-removebg-preview.png" class="card-img-top imgProductos" alt="...">
+                    <img src="../productos/iphone_15_natural_titan-removebg-preview.png"
+                        class="card-img-top imgProductos" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">iPhone 15 Pro Max 1TB - Natural Titanium</h5>
                         <p class="card-text articulo">Apple Nunevo </p>
@@ -165,7 +193,8 @@
             <div class="col">
                 <div
                     class="card card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
-                    <img src="../productos/iphone_15_white-removebg-preview (1).png" class="card-img-top imgProductos " alt="...">
+                    <img src="../productos/iphone_15_white-removebg-preview (1).png" class="card-img-top imgProductos "
+                        alt="...">
                     <div class="card-body">
                         <h5 class="card-title">iPhone 15 Pro Max 1TB - White Titanium</h5>
                         <p class="card-text articulo">Apple Nuevo </p>
@@ -190,7 +219,8 @@
             <div class="col">
                 <div
                     class="card card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
-                    <img src="../productos/iphone 15 plus/webImage-843025-240126015915_550550-removebg-preview.png" class="card-img-top imgProductos" alt="...">
+                    <img src="../productos/iphone 15 plus/webImage-843025-240126015915_550550-removebg-preview.png"
+                        class="card-img-top imgProductos" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">iPhone 15 Plus 512GB - Black</h5>
                         <p class="card-text articulo">Apple Nuevo </p>
@@ -217,7 +247,8 @@
 
                 <div
                     class="card card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
-                    <img src="../productos/iphone 15 plus/webImage-843026-240126015917_550550-removebg-preview.png" class="card-img-top imgProductos" alt="...">
+                    <img src="../productos/iphone 15 plus/webImage-843026-240126015917_550550-removebg-preview.png"
+                        class="card-img-top imgProductos" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">iPhone 15 Plus 512GB - Pink</h5>
                         <p class="card-text articulo">Apple Nuevo</p>
@@ -242,7 +273,8 @@
             <div class="col">
                 <div
                     class="card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
-                    <img src="../productos/iphone 15 plus/webImage-843028-240126015916_550550-removebg-preview.png" class="card-img-top imgProductos" alt="...">
+                    <img src="../productos/iphone 15 plus/webImage-843028-240126015916_550550-removebg-preview.png"
+                        class="card-img-top imgProductos" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">iPhone 15 Plus 512GB - Blue</h5>
                         <p class="card-text articulo">Apple Nuevo </p>
@@ -269,7 +301,8 @@
             <div class="col">
                 <div
                     class="card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
-                    <img src="../productos/iphone 15 plus/webImage-843029-240126015916_550550-removebg-preview.png" class="card-img-top imgProductos" alt="...">
+                    <img src="../productos/iphone 15 plus/webImage-843029-240126015916_550550-removebg-preview.png"
+                        class="card-img-top imgProductos" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">iPhone 15 Plus 512GB - Green</h5>
                         <p class="card-text articulo">Apple Nuevo </p>
@@ -307,22 +340,23 @@
             </div>
         </div>
     </div> -->
-    <section class="mt-5"> 
-    <div class="mx-auto d-flex flex-wrap align-items-center justify-content-center iPad"> 
-        <img src="../productos/ipad/products1683274882_2-d.webp" class="img-fluid" alt="...">
-        <img src="../productos/ipad/products1683274887_5-d.webp" class="img-fluid" alt="...">
-        <img src="../productos/ipad/3.webp.crdownload" class="img-fluid" alt="...">
-        <img src="../productos/ipad/4.webp.crdownload" class="img-fluid" alt="...">
-        <img src="../productos/ipad/5.webp.crdownload" class="img-fluid" alt="...">
-    </div>
-</section>
+    <section class="mt-5">
+        <div class="mx-auto d-flex flex-wrap align-items-center justify-content-center iPad">
+            <img src="../productos/ipad/products1683274882_2-d.webp" class="img-fluid" alt="...">
+            <img src="../productos/ipad/products1683274887_5-d.webp" class="img-fluid" alt="...">
+            <img src="../productos/ipad/3.webp.crdownload" class="img-fluid" alt="...">
+            <img src="../productos/ipad/4.webp.crdownload" class="img-fluid" alt="...">
+            <img src="../productos/ipad/5.webp.crdownload" class="img-fluid" alt="...">
+        </div>
+    </section>
 
     <section class="container mt-5">
         <div class="row row-cols-1 row-cols-md-3 g-4 ">
             <div class="col">
                 <div
                     class="card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
-                    <img src="../productos/ipad/products1683182816_ROSA_iPad_Pro_Cellular_11_in_4th_Gen_Silver_PDP_Image_5G_Position-1a.webp" class="card-img-top imgProductos " alt="...">
+                    <img src="../productos/ipad/products1683182816_ROSA_iPad_Pro_Cellular_11_in_4th_Gen_Silver_PDP_Image_5G_Position-1a.webp"
+                        class="card-img-top imgProductos " alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Apple iPad Pro 11 2022 1TB - 2TB</h5>
                         <p class="card-text articulo">Apple Nuevo </p>
@@ -349,7 +383,8 @@
             <div class="col">
                 <div
                     class="card card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
-                    <img src="../productos/ipad/products1683218009_ROSA_iPad_Pro_Wi-Fi_12-9_in_6th_Gen_Silver_PDP_Image_Position-1a.webp" class="card-img-top imgProductos" alt="...">
+                    <img src="../productos/ipad/products1683218009_ROSA_iPad_Pro_Wi-Fi_12-9_in_6th_Gen_Silver_PDP_Image_Position-1a.webp"
+                        class="card-img-top imgProductos" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Apple iPad Pro 12.9 2022 128GB - 2TB</h5>
                         <p class="card-text articulo ">Apple Nuevo</p>
@@ -374,7 +409,8 @@
             <div class="col">
                 <div
                     class="card card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
-                    <img src="../productos/ipad/products1683218009_ROSA_iPad_Pro_Wi-Fi_12-9_in_6th_Gen_Silver_PDP_Image_Position-1a.webp" class="card-img-top imgProductos" alt="...">
+                    <img src="../productos/ipad/products1683218009_ROSA_iPad_Pro_Wi-Fi_12-9_in_6th_Gen_Silver_PDP_Image_Position-1a.webp"
+                        class="card-img-top imgProductos" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Apple iPad Air 2022 64GB - 256GB</h5>
                         <p class="card-text articulo">Apple Nunevo </p>
@@ -396,7 +432,266 @@
                     </div>
                 </div>
             </div>
-            
+            <div class="col">
+                <div
+                    class="card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
+                    <img src="../productos/ipad/teclado.webp"
+                        class="card-img-top imgProductos " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Magic Keyboard Apple Silicon US</h5>
+                        <p class="card-text articulo">Apple Nuevo </p>
+                        <p class="card-text precioArticulo "> Precio: U$S 364</p>
+                        <div class="d-grid gap-2">
+                            <button class="cta mb-3 ">
+                                <span class="hover-underline-animation"> Comprar Ahora </span>
+                                <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10"
+                                    viewBox="0 0 46 16">
+                                    <path id="Path_10" data-name="Path 10"
+                                        d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                                        transform="translate(30)"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <p
+                            class="card-text calificarProducto d-flex flex-wrap align-items-center justify-content-center ">
+                            Califica el Producto <sl-rating></sl-rating> </p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div
+                    class="card card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
+                    <img src="../productos/ipad/lapiz.webp"
+                        class="card-img-top imgProductos" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple Pencil (1st Generation) </h5>
+                        <p class="card-text articulo ">Apple Nuevo</p>
+                        <p class="card-text precioArticulo  "> Precio: U$S 287</p>
+                        <div class="d-grid gap-2">
+                            <button class="cta mb-3 ">
+                                <span class="hover-underline-animation"> Comprar Ahora </span>
+                                <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10"
+                                    viewBox="0 0 46 16">
+                                    <path id="Path_10" data-name="Path 10"
+                                        d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                                        transform="translate(30)"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <p
+                            class="card-text calificarProducto d-flex flex-wrap align-items-center justify-content-center ">
+                            Califica el Producto <sl-rating></sl-rating> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div
+                    class="card card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
+                    <img src="../productos/ipad/mouse.webp"
+                        class="card-img-top imgProductos" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Magic Mouse Apple Touch Surface</h5>
+                        <p class="card-text articulo">Apple Nunevo </p>
+                        <p class="card-text precioArticulo "> Precio: U$S 1.899</p>
+                        <div class="d-grid gap-2">
+                            <button class="cta mb-3 ">
+                                <span class="hover-underline-animation"> Comprar Ahora </span>
+                                <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10"
+                                    viewBox="0 0 46 16">
+                                    <path id="Path_10" data-name="Path 10"
+                                        d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                                        transform="translate(30)"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <p
+                            class="card-text calificarProducto d-flex flex-wrap align-items-center justify-content-center ">
+                            Califica el Producto <sl-rating></sl-rating> </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <section class="mt-5">
+        <div class="mx-auto d-flex flex-wrap align-items-center justify-content-center iPad">
+            <img src="../productos/mac/products1683282744_m-1-d.webp" class="img-fluid" alt="...">
+            <img src="../productos/mac/products1683282745_m-2-d.webp" class="img-fluid" alt="...">
+            <img src="../productos/mac/products1683282750_m-5-d.webp" class="img-fluid" alt="...">
+            <img src="../productos/mac/products1683282752_m-6-d.webp" class="img-fluid" alt="...">
+            <img src="../productos/mac/products1683282753_m-7-d.webp" class="img-fluid" alt="...">
+            <img src="../productos/mac/products1683282757_m-9-d.webp" class="img-fluid" alt="...">
+            <img src="../productos/mac/products1683282759_m-10-d.webp" class="img-fluid" alt="...">
+            <img src="../productos/mac/products1683282761_m-11-d.webp" class="img-fluid" alt="...">
+        </div>
+    </section>
+    <section class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4 ">
+            <div class="col">
+                <div
+                    class="card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
+                    <img src="../productos/mac/Mac_files/products1683224074_ROSA_MacBook_Pro_14_in_Space_Gray_PDP_Image_Position-1.webp"
+                        class="card-img-top imgProductos " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">MacBook Pro 14 M2 max Chip 2023</h5>
+                        <p class="card-text articulo">Apple Nuevo </p>
+                        <p class="card-text precioArticulo "> Precio: U$S 364</p>
+                        <div class="d-grid gap-2">
+                            <button class="cta mb-3 ">
+                                <span class="hover-underline-animation"> Comprar Ahora </span>
+                                <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10"
+                                    viewBox="0 0 46 16">
+                                    <path id="Path_10" data-name="Path 10"
+                                        d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                                        transform="translate(30)"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <p
+                            class="card-text calificarProducto d-flex flex-wrap align-items-center justify-content-center ">
+                            Califica el Producto <sl-rating></sl-rating> </p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div
+                    class="card card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
+                    <img src="../productos/mac/Mac_files/products1683226979_ROSA_MacBook_Pro_14_in_Space_Gray_PDP_Image_Position-1.webp"
+                        class="card-img-top imgProductos" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">MacBook Pro 14 M2 Pro Chip 2023</h5>
+                        <p class="card-text articulo ">Apple Nuevo</p>
+                        <p class="card-text precioArticulo  "> Precio: U$S 287</p>
+                        <div class="d-grid gap-2">
+                            <button class="cta mb-3 ">
+                                <span class="hover-underline-animation"> Comprar Ahora </span>
+                                <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10"
+                                    viewBox="0 0 46 16">
+                                    <path id="Path_10" data-name="Path 10"
+                                        d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                                        transform="translate(30)"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <p
+                            class="card-text calificarProducto d-flex flex-wrap align-items-center justify-content-center ">
+                            Califica el Producto <sl-rating></sl-rating> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div
+                    class="card card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
+                    <img src="../productos/mac/Mac_files/products1683268016_ROSA_MacBook_Pro_14_in_Space_Gray_PDP_Image_Position-1.webp"
+                        class="card-img-top imgProductos" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">MacBook Pro 13 M2 Pro Chip 2022</h5>
+                        <p class="card-text articulo">Apple Nunevo </p>
+                        <p class="card-text precioArticulo "> Precio: U$S 1.899</p>
+                        <div class="d-grid gap-2">
+                            <button class="cta mb-3 ">
+                                <span class="hover-underline-animation"> Comprar Ahora </span>
+                                <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10"
+                                    viewBox="0 0 46 16">
+                                    <path id="Path_10" data-name="Path 10"
+                                        d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                                        transform="translate(30)"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <p
+                            class="card-text calificarProducto d-flex flex-wrap align-items-center justify-content-center ">
+                            Califica el Producto <sl-rating></sl-rating> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div
+                    class="card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
+                    <img src="../productos/mac/1.webp"
+                        class="card-img-top imgProductos " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">MacBook Air M2 Chip 2022</h5>
+                        <p class="card-text articulo">Apple Nuevo </p>
+                        <p class="card-text precioArticulo "> Precio: U$S 364</p>
+                        <div class="d-grid gap-2">
+                            <button class="cta mb-3 ">
+                                <span class="hover-underline-animation"> Comprar Ahora </span>
+                                <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10"
+                                    viewBox="0 0 46 16">
+                                    <path id="Path_10" data-name="Path 10"
+                                        d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                                        transform="translate(30)"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <p
+                            class="card-text calificarProducto d-flex flex-wrap align-items-center justify-content-center ">
+                            Califica el Producto <sl-rating></sl-rating> </p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div
+                    class="card card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
+                    <img src="../productos/mac/products1686657572_Mac-St-1.webp"
+                        class="card-img-top imgProductos" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mac Studio ( M2 ULTRA 1TB)</h5>
+                        <p class="card-text articulo ">Apple Nuevo</p>
+                        <p class="card-text precioArticulo  "> Precio: U$S 287</p>
+                        <div class="d-grid gap-2">
+                            <button class="cta mb-3 ">
+                                <span class="hover-underline-animation"> Comprar Ahora </span>
+                                <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10"
+                                    viewBox="0 0 46 16">
+                                    <path id="Path_10" data-name="Path 10"
+                                        d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                                        transform="translate(30)"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <p
+                            class="card-text calificarProducto d-flex flex-wrap align-items-center justify-content-center ">
+                            Califica el Producto <sl-rating></sl-rating> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div
+                    class="card card bg-transparent d-flex flex-wrap align-items-center justify-content-center cardProductos ">
+                    <img src="../productos/mac/products1686657599_Mac-St-1.webp"
+                        class="card-img-top imgProductos" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mac Studio ( M2 MAX 1TB)</h5>
+                        <p class="card-text articulo">Apple Nunevo </p>
+                        <p class="card-text precioArticulo "> Precio: U$S 1.899</p>
+                        <div class="d-grid gap-2">
+                            <button class="cta mb-3 ">
+                                <span class="hover-underline-animation"> Comprar Ahora </span>
+                                <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10"
+                                    viewBox="0 0 46 16">
+                                    <path id="Path_10" data-name="Path 10"
+                                        d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                                        transform="translate(30)"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <p
+                            class="card-text calificarProducto d-flex flex-wrap align-items-center justify-content-center ">
+                            Califica el Producto <sl-rating></sl-rating> </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
 
